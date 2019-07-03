@@ -4,7 +4,7 @@
 *[Master Stylesheet]
 *
 * Project: Cardoor - Car Rental HTML Template
-* Version: 
+* Version:
 * Created : 13.02.2018
 * Author Name: alen dui
 * Author URI: http://alendkidjt.com
@@ -1133,7 +1133,7 @@ a.slicknav_btn {
 /*== Mobile Apps CSS Start ==*/
 
 #mobile-app-area {
-	padding: 120px 0;
+	padding: 60px 0;
 	position: relative;
 }
 
@@ -3240,3 +3240,10 @@ body,
 	opacity: 1;
 	visibility: visible;
 }
+
+#application {
+    font-weight: normal;
+	color:black}
+
+#porte {
+	color:#14B316}
