@@ -382,6 +382,7 @@ a.slicknav_btn {
 	background-image: url("assets/img/caret-cion.png");
 	background-position: right 13px center;
 	background-size: 12px auto;
+
 }
 
 .book-item {
@@ -1364,7 +1365,7 @@ a.slicknav_btn {
 	border: 1px solid #14B316;
 	border-radius: 2px;
 	color: #fff;
-	height: 55px;
+	height: 48px;
 	padding: 10px;
 	padding-right: 70px;
 	width: 100%;
@@ -1577,17 +1578,29 @@ body,
 .book-ur-car input::-webkit-input-placeholder {
 	color: #fff;
 	opacity: 1;
+   text-align:center;
+}
 }
 
 .book-ur-car input:-ms-input-placeholder {
 	color: #fff;
 	opacity: 1;
+	text-align:center;
 }
 
 .book-ur-car input::placeholder {
 	color: #fff;
 	opacity: 1;
+	text-align:lef;
 }
+
+
+.car-choose bookinput-item::placeholder {
+	color: #fff;
+	opacity: 1;
+	text-align:lef;
+}
+
 
 /*== SlideShow CSS ==*/
 
@@ -3255,3 +3268,11 @@ body,
 		#explications {
 			color : black;
 		}
+
+		input{
+	   text-align:center;
+	}
+
+	#placedeparking {
+		color : black;
+	}
