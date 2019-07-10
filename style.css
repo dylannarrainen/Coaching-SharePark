@@ -3272,3 +3272,7 @@ body,
 		input{
 	   text-align:center;
 	}
+
+	#placedeparking {
+		color : black;
+	}
